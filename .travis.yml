@@ -5,3 +5,4 @@ os:
 
 script:
   - uname -a
+  - gcc --version
