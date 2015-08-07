@@ -1,7 +1,206 @@
-language: objective-c
-osx_image: xcode7
-
+matrix:
+  include:
+     - os: osx
+       env: NUM=0
+     - os: osx
+       env: NUM=1
+     - os: osx
+       env: NUM=2
+     - os: osx
+       env: NUM=3
+     - os: osx
+       env: NUM=4
+     - os: osx
+       env: NUM=5
+     - os: osx
+       env: NUM=6
+     - os: osx
+       env: NUM=7
+     - os: osx
+       env: NUM=8
+     - os: osx
+       env: NUM=9
+     - os: osx
+       env: NUM=10
+     - os: osx
+       env: NUM=11
+     - os: osx
+       env: NUM=12
+     - os: osx
+       env: NUM=13
+     - os: osx
+       env: NUM=14
+     - os: osx
+       env: NUM=15
+     - os: osx
+       env: NUM=16
+     - os: osx
+       env: NUM=17
+     - os: osx
+       env: NUM=18
+     - os: osx
+       env: NUM=19
+     - os: osx
+       env: NUM=20
+     - os: osx
+       env: NUM=21
+     - os: osx
+       env: NUM=22
+     - os: osx
+       env: NUM=23
+     - os: osx
+       env: NUM=24
+     - os: osx
+       env: NUM=25
+     - os: osx
+       env: NUM=26
+     - os: osx
+       env: NUM=27
+     - os: osx
+       env: NUM=28
+     - os: osx
+       env: NUM=29
+     - os: osx
+       env: NUM=30
+     - os: osx
+       env: NUM=31
+     - os: osx
+       env: NUM=32
+     - os: osx
+       env: NUM=33
+     - os: osx
+       env: NUM=34
+     - os: osx
+       env: NUM=35
+     - os: osx
+       env: NUM=36
+     - os: osx
+       env: NUM=37
+     - os: osx
+       env: NUM=38
+     - os: osx
+       env: NUM=39
+     - os: osx
+       env: NUM=40
+     - os: osx
+       env: NUM=41
+     - os: osx
+       env: NUM=42
+     - os: osx
+       env: NUM=43
+     - os: osx
+       env: NUM=44
+     - os: osx
+       env: NUM=45
+     - os: osx
+       env: NUM=46
+     - os: osx
+       env: NUM=47
+     - os: osx
+       env: NUM=48
+     - os: osx
+       env: NUM=49
+     - os: osx
+       env: NUM=50
+     - os: osx
+       env: NUM=51
+     - os: osx
+       env: NUM=52
+     - os: osx
+       env: NUM=53
+     - os: osx
+       env: NUM=54
+     - os: osx
+       env: NUM=55
+     - os: osx
+       env: NUM=56
+     - os: osx
+       env: NUM=57
+     - os: osx
+       env: NUM=58
+     - os: osx
+       env: NUM=59
+     - os: osx
+       env: NUM=60
+     - os: osx
+       env: NUM=61
+     - os: osx
+       env: NUM=62
+     - os: osx
+       env: NUM=63
+     - os: osx
+       env: NUM=64
+     - os: osx
+       env: NUM=65
+     - os: osx
+       env: NUM=66
+     - os: osx
+       env: NUM=67
+     - os: osx
+       env: NUM=68
+     - os: osx
+       env: NUM=69
+     - os: osx
+       env: NUM=70
+     - os: osx
+       env: NUM=71
+     - os: osx
+       env: NUM=72
+     - os: osx
+       env: NUM=73
+     - os: osx
+       env: NUM=74
+     - os: osx
+       env: NUM=75
+     - os: osx
+       env: NUM=77
+     - os: osx
+       env: NUM=78
+     - os: osx
+       env: NUM=79
+     - os: osx
+       env: NUM=80
+     - os: osx
+       env: NUM=81
+     - os: osx
+       env: NUM=82
+     - os: osx
+       env: NUM=83
+     - os: osx
+       env: NUM=84
+     - os: osx
+       env: NUM=85
+     - os: osx
+       env: NUM=86
+     - os: osx
+       env: NUM=87
+     - os: osx
+       env: NUM=88
+     - os: osx
+       env: NUM=89
+     - os: osx
+       env: NUM=90
+     - os: osx
+       env: NUM=91
+     - os: osx
+       env: NUM=92
+     - os: osx
+       env: NUM=93
+     - os: osx
+       env: NUM=94
+     - os: osx
+       env: NUM=95
+     - os: osx
+       env: NUM=96
+     - os: osx
+       env: NUM=97
+     - os: osx
+       env: NUM=98
+     - os: osx
+       env: NUM=99
+     - os: osx
+       env: NUM=100
 
 script:
   - uname -a
-  - gcc --version
+  - echo $NUM
