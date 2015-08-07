@@ -206,5 +206,4 @@ script:
   - echo $NUM
   - sleep 300
   - echo "done"
-  - echo "more done"
 
