@@ -205,7 +205,5 @@ script:
   - uname -a
   - echo $NUM
   - sleep 300
-  - echo "business ha ha"
-  - echo "nah"
-  - echo "x6"
+  - echo "done"
 
